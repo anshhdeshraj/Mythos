@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import {View, StyleSheet, Text, TouchableOpacity, ScrollView, Image, TextInput} from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import settingsStyle from '../styles/settingsStyle';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
 
 const SettingsScreen = ({navigation}) => {
     const avatarURL = '#'
