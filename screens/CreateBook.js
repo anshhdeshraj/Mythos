@@ -7,7 +7,7 @@ import BookStyles from '../styles/BookStyles';
 
 const CreateBook = ({navigation}) => {
 
-    const OPENAI_API_KEY = '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';
+    const OPENAI_API_KEY = 'YOUR_OPENAI_API_KEY';
     
     const [title, setTitle] = useState('');
     const [desc, setDesc] = useState('')
